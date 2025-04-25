@@ -1,5 +1,5 @@
 from llama_index.core.node_parser import SimpleNodeParser
-from llama_index.core import SimpleDirectoryReader
+from llama_index.core import SimpleDirectoryReader 
 
 
 def parse_pdf_documents(input_file):
