@@ -21,4 +21,4 @@ embed_model="local:BAAI/bge-small-en-v1.5"
 # # Set settings
 Settings.chunk_size = 512
 Settings.embed_model = embed_model
-Settings.llm = None
+Settings.llm = None 
