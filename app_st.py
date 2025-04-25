@@ -4,7 +4,7 @@ from preprocessed import parse_pdf_documents
 from vector_store import create_vector_store_index, load_vector_store_index
 from postprocessing import query_index
 from utils import save_uploaded_file
-from logging_config import setup_logging
+from logging_config import setup_logging 
 setup_logging()
 
 
