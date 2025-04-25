@@ -39,6 +39,6 @@ def create_vector_store_index(pdf_nodes, file_name):
 def load_vector_store_index(file_name):
     persist_dir = f'F:/QnApdf/vector_db/{file_name}'
     index = load_index_from_storage(StorageContext.from_defaults(persist_dir=persist_dir))
-    st.success("Vector store index loaded successfully")
+    st.success("Vector store index loaded successfully") 
     return index
 
